@@ -1,0 +1,34 @@
+# Development files
+/src/
+scripts/generate-wt-header.js
+scripts/generate-wt-sources.js
+tsconfig.json
+example/
+tests/
+
+# Build artifacts (but keep dist/ for compiled JS)
+!dist/
+build/
+coverage/
+*.tgz
+
+# Git files
+.git/
+.gitmodules
+.gitignore
+.github/
+
+# WiredTiger - exclude what we don't need in npm package
+# (build/ is created during installation, not distributed)
+lib/wiredtiger/build/
+lib/wiredtiger/test/
+lib/wiredtiger/bench/
+lib/wiredtiger/examples/
+lib/wiredtiger/tools/
+lib/wiredtiger/lang/
+lib/wiredtiger/src/docs/
+lib/wiredtiger/.clang-format
+lib/wiredtiger/CONTRIBUTING.rst
+lib/wiredtiger/INSTALL
+lib/wiredtiger/README
+lib/wiredtiger/RELEASE_INFO

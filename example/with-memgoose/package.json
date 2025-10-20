@@ -1,0 +1,14 @@
+{
+  "name": "memgoose-with-wiredtiger-example",
+  "version": "1.0.0",
+  "description": "Example using memgoose with WiredTiger storage backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "memgoose": "^1.0.0",
+    "memgoose-wiredtiger": "^2.0.0"
+  }
+}

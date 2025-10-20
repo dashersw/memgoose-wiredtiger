@@ -1,0 +1,13 @@
+{
+  "name": "wiredtiger-standalone-example",
+  "version": "1.0.0",
+  "description": "Standalone WiredTiger example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "memgoose-wiredtiger": "^1.0.0"
+  }
+}

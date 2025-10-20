@@ -1,0 +1,3 @@
+[submodule "lib/wiredtiger"]
+	path = lib/wiredtiger
+	url = https://github.com/wiredtiger/wiredtiger.git
